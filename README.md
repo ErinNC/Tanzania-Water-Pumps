@@ -17,5 +17,11 @@ We will use **decision tree**, **random forest**, and **gradient boosting classi
 - sklearn
 - xgboost
 
-## Credits
+## Contents:
+In this repository, you will find:
+- An **exploratory data analysis notebook**, which we will use to create a data wrangling function for our machine learning notebook
+- A **machine learning notebook**, in which we will prepare and split our data using **pipelines**, train our models, compare evaluation metrics, and tune our models using several cross-validation methods.
+- An html file containing our **Pandas Profiling Report**
+
+## Credits:
 This predictive modeling challenge comes from [DrivenData](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/), an organization that helps non-profits organizations by hosting data science competitions for social impact. The competition has open licensing: "The data is available for use outside of DrivenData." This project was also part of BloomTech's Data Science curriculum.
