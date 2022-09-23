@@ -25,3 +25,10 @@ In this repository, you will find:
 
 ## Credits:
 This predictive modeling challenge comes from [DrivenData](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/), an organization that helps non-profits organizations by hosting data science competitions for social impact. The competition has open licensing: "The data is available for use outside of DrivenData." This project was also part of BloomTech's Data Science curriculum.
+
+## Next Steps:
+One way of improving our model in the future could be to change how we handle high cardinality categorical features. Rather than just dropping these columns, we could reduce the cardinality of each feature by aggregating the categories, using an "other" field.
+
+We could also try resampling methods on our training sample before fitting our model to address the imbalanced nature of this classification problem.
+
+Another way we could improve this model would be to compare different evaluation metrics including precision and recall, which would lead to a better evaluation of the model.
